@@ -38,7 +38,3 @@ metahide/
 - [About](https://qainsights.com)
 - [GitHub](https://github.com/QAInsights/metahide)
 - [Donate](https://buymeacoffee.com/qainsights)
-
-## License
-
-MIT
