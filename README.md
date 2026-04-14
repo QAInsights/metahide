@@ -4,7 +4,7 @@ A minimal Chrome extension that lets you toggle visibility of meta.ai sidebar me
 
 ## Features
 
-- Toggle individual sidebar items: **New Chat**, **Search**, **Vibes**, **Create**, **History**
+- Toggle individual sidebar items: **New Chat**, **Search**, **Vibes**, **Create**
 - Preferences persist across sessions via Chrome sync storage
 - Works with meta.ai's SPA - re-applies on dynamic re-renders
 
