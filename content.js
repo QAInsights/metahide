@@ -108,3 +108,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     sendResponse({ ok: true });
   }
 });
+
+// Export for testing (no-op in browser)
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    ITEM_KEYS, DEFAULTS, LABELS, getDirectText, findRowParent, applyPreferences, loadAndApply,
+    _resetContext: () => { contextValid = true; }
+  };
+}

@@ -1,0 +1,13 @@
+{
+  "name": "metahide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension to toggle meta.ai sidebar menu items",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

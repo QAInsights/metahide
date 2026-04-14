@@ -71,3 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+// Export for testing (no-op in browser)
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { ITEM_KEYS, DEFAULTS, loadPreferences, getCurrentPrefs, saveAndNotify };
+}
