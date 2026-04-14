@@ -21,18 +21,6 @@ A minimal Chrome extension that lets you toggle visibility of meta.ai sidebar me
 
 Click the MetaHide icon in the Chrome toolbar to open the popup. Toggle each sidebar item on or off. Changes apply immediately.
 
-## Project Structure
-
-```
-metahide/
-├── manifest.json     Manifest V3 configuration
-├── content.js        Content script injected into meta.ai
-├── popup.html        Extension popup UI
-├── popup.js          Popup logic and storage management
-├── styles.css        Popup styling
-└── icons/            Extension icons
-```
-
 ## Links
 
 - [About](https://qainsights.com)
